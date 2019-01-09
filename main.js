@@ -17,10 +17,6 @@ var timeID = setInterval(() => {
     enterWaitStatus($(x.currentTarget))  
   })
   enterDisplayStatus(allImages.eq(index2))
-  
-  console.log([index,index2])
- 
-  
  
   index += 1
   
