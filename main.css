@@ -1,0 +1,33 @@
+*{margin:0;padding:0;}
+/* *{box-sizing: border-box;} */
+
+.window{
+  width: 400px;
+  overflow: hidden;
+  height: 225.34px;
+}
+
+.images{
+  position: relative;
+}
+
+.images > img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+}
+
+.images > .display{
+  z-index: 1;
+  transform: translateX(0);
+}
+
+.images > .leave{
+  z-index: 1;
+  transform: translateX(-100%);
+}
+ 
+.images > .wait{
+  transform: translateX(100%);
+}
